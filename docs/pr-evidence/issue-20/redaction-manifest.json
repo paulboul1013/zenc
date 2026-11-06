@@ -1,0 +1,55 @@
+{
+  "purpose": "PR screenshots with local account path redacted",
+  "mask": "opaque black rectangle",
+  "files": [
+    {
+      "file": "fixed-backspace.png",
+      "redaction_rectangles_inclusive": [],
+      "outside_mask_pixel_identical": true,
+      "source_sha256": "a2791ad5ce4df136a801a230d6c95940dd5063fb3d2adbba189e041a6ac5c153",
+      "output_sha256": "a2791ad5ce4df136a801a230d6c95940dd5063fb3d2adbba189e041a6ac5c153"
+    },
+    {
+      "file": "fixed-escape-editing.png",
+      "redaction_rectangles_inclusive": [],
+      "outside_mask_pixel_identical": true,
+      "source_sha256": "ba0ec0fa5d1a1cea3b824018e0b582a03c928b1306e45a98370748d46c3d3fe7",
+      "output_sha256": "ba0ec0fa5d1a1cea3b824018e0b582a03c928b1306e45a98370748d46c3d3fe7"
+    },
+    {
+      "file": "fixed-escape.png",
+      "redaction_rectangles_inclusive": [],
+      "outside_mask_pixel_identical": true,
+      "source_sha256": "d484c5e02812bac3cead6641293e30ff4284b865a0fd0be1986851d886f13b97",
+      "output_sha256": "d484c5e02812bac3cead6641293e30ff4284b865a0fd0be1986851d886f13b97"
+    },
+    {
+      "file": "old-backspace.png",
+      "redaction_rectangles_inclusive": [
+        [
+          117,
+          27,
+          301,
+          56
+        ]
+      ],
+      "outside_mask_pixel_identical": true,
+      "source_sha256": "4003e92750f497df1f968e6d5d0d1ce43a5321f0e519a14863b0edd71ffc333c",
+      "output_sha256": "3ffde08b5e4c71603d285783ecd9011badc280b58d67866224bac13c3fa81f43"
+    },
+    {
+      "file": "old-escape.png",
+      "redaction_rectangles_inclusive": [
+        [
+          117,
+          27,
+          301,
+          56
+        ]
+      ],
+      "outside_mask_pixel_identical": true,
+      "source_sha256": "69988e28ab175becc99a58d29674356a1e7a60d55a61443903c3acb0d5b0ab7f",
+      "output_sha256": "91e1cdd560df3412f747ed5675a75c89d771d38e071717247d2e8495afc3a5e7"
+    }
+  ]
+}
