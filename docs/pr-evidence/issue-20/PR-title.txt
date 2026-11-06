@@ -1,0 +1,1 @@
+fix(repl): handle Backspace and Escape during reverse search
